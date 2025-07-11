@@ -1,7 +1,7 @@
 🎲 Dicee Game
 
 A fun, interactive web app where two players roll virtual dice and compete to see who gets the higher number.
-![Screenshot of Dicee Game](images/UI.png)
+![Screenshot of Dicee Game](https://github.com/Sai-Santhosh-M/dice-game/blob/main/dice-game/images/UI.png)
 
 
 ---
