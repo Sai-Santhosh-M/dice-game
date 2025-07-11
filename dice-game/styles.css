@@ -1,0 +1,70 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  max-width: 150px;
+}
+
+#player1-number,
+#player2-number {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  background-color: #4ECCA3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3cb391;
+}
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-dice {
+  animation: shake 0.5s ease;
+}
